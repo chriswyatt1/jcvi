@@ -248,6 +248,7 @@ class Track(object):
                     y + hpad,
                     si,
                     fc="w",
+                    rotation=90,
                     color=color,
                     size=10,
                     transform=tr,
@@ -262,7 +263,7 @@ class Track(object):
                 x, y = self.x, self.y - vpad
             else:  # "center"
                 x, y = self.xstart - vpad / 2, self.y
-            ax.text(x, y, label, rotation=90, ha="center", va="center", color=c, transform=tr)
+            ax.text(x, y, label, ha="left", va="left", color=c, transform=tr)
 
     def update_offsets(self):
         self.offsets = {}
