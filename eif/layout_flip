@@ -1,0 +1,5 @@
+# y, xstart, xend, rotation, color, label, va,  bed
+.6,     .1,    .8,       0,      , Gorilla, top, Gorilla.bed
+.4,     .1,    .8,       0,      , Ring_tailed_lemur, top, Ring_tailed_lemur.bed.flipped.bed
+# edges
+e, 0, 1, Gorilla.Ring_tailed_lemur.anchors.simple
